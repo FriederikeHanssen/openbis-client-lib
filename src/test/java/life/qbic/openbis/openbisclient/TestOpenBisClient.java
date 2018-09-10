@@ -44,7 +44,7 @@ public class TestOpenBisClient {
   private static OpenBisClient openbisClient;
   private static String DATASOURCE_URL;
   private static Properties config;
-  private static String PROPERTIES_PATH = "/Users/spaethju/qbic-ext.properties";
+  private static String PROPERTIES_PATH = "/etc/qbic-ext.properties";
 
   @Rule
   public final ExpectedException exception = ExpectedException.none();
